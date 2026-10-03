@@ -38,6 +38,14 @@ The National Association of Realtors Housing Affordability Index already combine
 
 We build on these approaches by comparing recurring costs and entry capital under a common set of county data and financing assumptions. The contribution is the reproducible comparison and its empirical results, rather than a new mortgage formula or visual encoding.
 
+% Declare the wide map early so IEEE two-column layout places it on the next page.
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{../outputs/payment_burden_pilot.pdf}
+\caption{County principal-and-interest burdens using all-household and renter income under identical financing terms. The scale is fixed across maps; gray indicates missing data. Alaska and Hawaii are included in the analysis but omitted from these maps.}
+\label{fig:county-maps}
+\end{figure*}
+
 \section{Data and measures}
 The geographic universe comprises 3,144 county equivalents in the 50 states and District of Columbia using 2024 Census cartographic boundaries. We average twelve monthly 2024 Zillow Home Value Index observations \cite{zhvi} and join ACS 2020--2024 five-year estimates \cite{acs} of median household income and renter-household income. ZHVI is a typical-value measure, not the median asking price of homes available for sale. There are 3,062 valid price/all-household-income matches and 3,043 renter-income matches. Missing Zillow coverage and incompatible Connecticut county/planning-region definitions are retained in the coverage audit rather than silently imputed.
 
@@ -51,11 +59,12 @@ ACS B25103 supplies annual tax medians for mortgaged owner-occupied homes. B2514
 
 We transform income plus/minus its reported ACS 90\% margin of error \cite{acsmoe} while holding price fixed to classify whether the P\&I ratio is below, above, or straddles 28\%. This reference supports consistent comparisons; it does not determine mortgage approval. We do not observe assets, other debts, credit scores, assistance, maintenance, HOA charges, or property-specific reassessment and insurance repricing.
 
+% Declare the results figure before its discussion to avoid a final-page float.
 \begin{figure*}[t]
 \centering
-\includegraphics[width=\textwidth]{../outputs/payment_burden_pilot.pdf}
-\caption{County principal-and-interest burdens using all-household and renter income under identical financing terms. The scale is fixed across maps; gray indicates missing data. Alaska and Hawaii are included in the analysis but omitted from these maps.}
-\label{fig:county-maps}
+\includegraphics[width=\linewidth]{../outputs/representation_comparison.pdf}
+\caption{Paired comparisons on a common county sample. Fixed plot bounds retain outlying counties in the statistics; the figure reports the clipping count.}
+\label{fig:representation-comparison}
 \end{figure*}
 
 \section{Implementation and evaluation}
@@ -66,6 +75,7 @@ The workflow also exports county results as GeoJSON for inspection in external G
 We compare ranks using Spearman correlation, highest-decile set overlap, and threshold transitions on common samples. Decile size is rounded upward, and GEOID breaks boundary ties. Threshold sensitivity includes 25\%, 28\%, 30\%, and 36\%. These evaluate consequences of representation choices, not predictive accuracy against individual ownership outcomes.
 
 \section{Results}
+Figure~\ref{fig:representation-comparison} compares the original payment ratio with the renter-income and ownership-cost measures.
 \begin{table*}[t]
 \caption{Representation comparisons at 7.03\% and 20\% down. Sample differences reflect missing cost inputs.}
 \centering\small
@@ -81,12 +91,6 @@ On the common sample of 3,036 counties, changing from all-household to renter in
 For 3,036 common renter-income/cost counties, 20\% down produces median county recurring-cost ratios of 44.5--45.7\% and upfront cash ratios of 126.9--144.2\% of annual renter income. At 5\% down, the corresponding values are 53.6--57.3\% and 40.4--57.7\%. Lower down payments reduce the initial capital requirement while increasing recurring burdens. The cash ratios are not years required to save, because saving rates and assets are unobserved.
 
 For the original renter P\&I scenario, income-MOE sensitivity leaves 1,924 counties above 28\% throughout, 258 below, and 861 straddling. Nineteen baseline counties lack valid inputs for this calculation; an additional 82 geographic-universe counties lack the baseline price/income match. Thus, the full explorer reports 101 missing classifications. These are income-only ranges, not simultaneous confidence statements across counties.
-
-\begin{figure*}[t]
-\centering
-\includegraphics[width=\linewidth]{../outputs/representation_comparison.pdf}
-\caption{Paired comparisons on a common county sample. Fixed plot bounds retain outlying counties in the statistics; the figure reports the clipping count.}
-\end{figure*}
 
 \subsection{Historical accounting}
 We compare annual-average 2019 and 2024 ZHVI and PMMS rates with the corresponding ACS five-year income releases. A geographic screen retains counties with at most 1\% relative symmetric-difference area between boundary vintages. This is a boundary-change exclusion rule, not full geographic harmonization. The matched historical samples contain 2,925 counties with all-household income data and 2,912 with renter-income data. The historical renter sample contains 90.74\% of 2024 renter households in the geographic universe, compared with 98.85\% for the 3,036-county representation sample. These are sample-coverage measures based on ACS household counts, not percentages of households able to buy.
