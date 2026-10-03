@@ -1,0 +1,1306 @@
+{
+  "zhvi_county.csv": {
+    "url": "https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv",
+    "sha256": "334e267a88028068d8c485363bf367a613c24a32dba3b1e288754e9728933867",
+    "bytes": 13579570,
+    "local_file_timestamp_utc": "2026-10-02T21:59:14.129050+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:02:37.623248+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2024_b19013.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+    "sha256": "b25a176b0e6c339b6f3a2a0d3d8446bf06f5f080b4395993ec9a8313efb1c229",
+    "bytes": 17917916,
+    "local_file_timestamp_utc": "2026-10-02T21:59:14.146623+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:02:37.635986+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2024_b25119.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25119.dat",
+    "sha256": "6ca979ddec5aebfe6b009e3b5902ea086752eccab6da6f6145d9b55ac147df0c",
+    "bytes": 17408736,
+    "local_file_timestamp_utc": "2026-10-02T21:59:24.608715+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:02:37.647493+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "counties2024.zip": {
+    "url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
+    "sha256": "da4051717caec55c75e3748c3608c2a3dbde8d1ff401bbaf4f952e3c3fb63ef1",
+    "bytes": 11626066,
+    "local_file_timestamp_utc": "2026-10-02T21:59:42.365882+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:02:37.654642+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2024_b25003.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25003.dat",
+    "sha256": "68e963e1ed60fcf6b0658579cefc6498b7a9eb780b9f3e87fd1b9775c4d4ac6c",
+    "bytes": 26901770,
+    "local_file_timestamp_utc": "2026-10-02T22:16:55.177842+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:55.194587+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2024_b25103.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25103.dat",
+    "sha256": "ba3a7cd0955d1d94d8e34632ba9e5e41780a97d4820fa7c534d23da7dfe2e1c8",
+    "bytes": 15291783,
+    "local_file_timestamp_utc": "2026-10-02T22:16:55.228843+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:55.236977+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2024_b25141.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25141.dat",
+    "sha256": "6fc0efda85cf3cbd769f6939671d3a24639177e625e1653a75eb0a7c94aa3842",
+    "bytes": 97394714,
+    "local_file_timestamp_utc": "2026-10-02T22:16:57.128300+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:57.184712+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "pmms_historical.xlsx": {
+    "url": "https://www.freddiemac.com/pmms/docs/historicalweeklydata.xlsx",
+    "sha256": "a033587b6b0b185a9487c1536ea9709252a8cd65c852c086de915e8c90cda97f",
+    "bytes": 218720,
+    "local_file_timestamp_utc": "2026-10-02T22:14:40.406466+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:53.971342+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019_templates.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/2019_5yr_Summary_FileTemplates.zip",
+    "sha256": "f1452595bfccbad5ea505b082fa91bfc0809c459db780aa56d086a328bdec41f",
+    "bytes": 1649353,
+    "local_file_timestamp_utc": "2026-10-02T22:15:04.616964+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:53.972980+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195al.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Alabama/All_Geographies_Not_Tracts_Block_Groups/g20195al.csv?download=1",
+    "sha256": "9cc120058043a109cc7468c601f3bb3169acf4eb2b594a8a7ef17ca021bcbce5",
+    "bytes": 1369516,
+    "local_file_timestamp_utc": "2026-10-02T22:16:54.274292+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:54.276365+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195al0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Alabama/All_Geographies_Not_Tracts_Block_Groups/20195al0058000.zip",
+    "sha256": "4dab2fef47b676c655e3460e20e5b5235196e35e93e44bad95a862391bed7e8e",
+    "bytes": 1047698,
+    "local_file_timestamp_utc": "2026-10-02T22:16:55.012237+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:55.014165+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195al0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Alabama/All_Geographies_Not_Tracts_Block_Groups/20195al0117000.zip",
+    "sha256": "8c5d396d6413d848ec653899037c46e44dc3cdf8d2e0dabe2aac552006bb6aa0",
+    "bytes": 1939232,
+    "local_file_timestamp_utc": "2026-10-02T22:16:56.461598+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:56.464314+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ak.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Alaska/All_Geographies_Not_Tracts_Block_Groups/g20195ak.csv?download=1",
+    "sha256": "08c140c4530d422ab4035ed10033f1fabdf3a6640efc5f29c2766c4ada5089a8",
+    "bytes": 558923,
+    "local_file_timestamp_utc": "2026-10-02T22:16:55.646886+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:55.649903+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ak0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Alaska/All_Geographies_Not_Tracts_Block_Groups/20195ak0058000.zip",
+    "sha256": "174fab4917e1d5332ae33d8b32293a92cf560576a0765cf6439a96c80152d76d",
+    "bytes": 517831,
+    "local_file_timestamp_utc": "2026-10-02T22:16:56.353797+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:56.356134+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ak0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Alaska/All_Geographies_Not_Tracts_Block_Groups/20195ak0117000.zip",
+    "sha256": "ccadf18a8098afbec2bd71199ebbf5d88e4c857ac519dd70004941d285acbf67",
+    "bytes": 920586,
+    "local_file_timestamp_utc": "2026-10-02T22:16:56.553295+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:56.555275+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195az.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Arizona/All_Geographies_Not_Tracts_Block_Groups/g20195az.csv?download=1",
+    "sha256": "b090dc05041019f07e4ce65264a291341ceec7276f9bf20463f67754de8784fd",
+    "bytes": 1331095,
+    "local_file_timestamp_utc": "2026-10-02T22:16:56.803857+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:56.807325+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195az0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Arizona/All_Geographies_Not_Tracts_Block_Groups/20195az0058000.zip",
+    "sha256": "388e680b96a5f9be0acf61e854cf863b4e1fcfb26b5629916a6fe12e7d1deb2e",
+    "bytes": 707557,
+    "local_file_timestamp_utc": "2026-10-02T22:16:57.191132+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:57.192816+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195az0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Arizona/All_Geographies_Not_Tracts_Block_Groups/20195az0117000.zip",
+    "sha256": "ee76f5ed3714a0c42ff3e458ea58303f4d3d90a43c11e7e569499379d0835771",
+    "bytes": 1173184,
+    "local_file_timestamp_utc": "2026-10-02T22:16:57.395439+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:57.398549+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ar.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Arkansas/All_Geographies_Not_Tracts_Block_Groups/g20195ar.csv?download=1",
+    "sha256": "34cf491ed2b8387c1c500b86fa37c817b1eb4672b61568051c8505da46eba148",
+    "bytes": 1325972,
+    "local_file_timestamp_utc": "2026-10-02T22:16:57.246419+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:57.248952+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ar0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Arkansas/All_Geographies_Not_Tracts_Block_Groups/20195ar0058000.zip",
+    "sha256": "d5da2a68d493a37beae177d183c29137468bba67fe33ee4ae474a67c773edf8b",
+    "bytes": 1028733,
+    "local_file_timestamp_utc": "2026-10-02T22:16:57.958333+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:57.963445+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ar0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Arkansas/All_Geographies_Not_Tracts_Block_Groups/20195ar0117000.zip",
+    "sha256": "1f47b1b5ecfc8c0955e4b04035edd135aa50a441720a1d65092c3f1dfe91514a",
+    "bytes": 1963365,
+    "local_file_timestamp_utc": "2026-10-02T22:16:57.979052+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:57.982593+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ca.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/California/All_Geographies_Not_Tracts_Block_Groups/g20195ca.csv?download=1",
+    "sha256": "486367b1637b8243a5aa64dbbdd4936d0dbeecfcc1f096d350d6516bb83af4f5",
+    "bytes": 6563959,
+    "local_file_timestamp_utc": "2026-10-02T22:16:57.607489+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:57.614894+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ca0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/California/All_Geographies_Not_Tracts_Block_Groups/20195ca0058000.zip",
+    "sha256": "70646105f96e4f6550a7ae97a0d81df1d3e0a144d638e4954e4650a3757a1571",
+    "bytes": 3104199,
+    "local_file_timestamp_utc": "2026-10-02T22:16:57.803703+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:57.811155+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ca0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/California/All_Geographies_Not_Tracts_Block_Groups/20195ca0117000.zip",
+    "sha256": "d0338e4595912fdff13f543d218af41b969445e212460f3c93fc3c35591c3f59",
+    "bytes": 4714802,
+    "local_file_timestamp_utc": "2026-10-02T22:16:58.431787+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:58.439763+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195co.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Colorado/All_Geographies_Not_Tracts_Block_Groups/g20195co.csv?download=1",
+    "sha256": "5e11e09431ef76aaf3a3e33c67ebc740e9b27ff81067241d03578ffc1e6ed2cc",
+    "bytes": 1201468,
+    "local_file_timestamp_utc": "2026-10-02T22:16:58.126135+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:58.130734+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195co0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Colorado/All_Geographies_Not_Tracts_Block_Groups/20195co0058000.zip",
+    "sha256": "f3b76dc3e0a24a5cb7a70adf60b0453de19791bdc6422a589e682886087ac3cc",
+    "bytes": 833051,
+    "local_file_timestamp_utc": "2026-10-02T22:16:58.204094+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:58.207367+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195co0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Colorado/All_Geographies_Not_Tracts_Block_Groups/20195co0117000.zip",
+    "sha256": "2a74de80e2185b08c48162ed73f77a76a93f890cca36840bfd08bea5082040ab",
+    "bytes": 1408458,
+    "local_file_timestamp_utc": "2026-10-02T22:16:58.851477+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:58.855257+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ct.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Connecticut/All_Geographies_Not_Tracts_Block_Groups/g20195ct.csv?download=1",
+    "sha256": "ea7d052f2c4faa493727d021bc873c0b5bbf25284fa6bc4bac6253574b54dff7",
+    "bytes": 888711,
+    "local_file_timestamp_utc": "2026-10-02T22:16:58.372845+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:58.378759+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ct0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Connecticut/All_Geographies_Not_Tracts_Block_Groups/20195ct0058000.zip",
+    "sha256": "5241fb4baecbc4055c7fd530d8353ff9e17523317382c12ae1d14d955a151758",
+    "bytes": 730853,
+    "local_file_timestamp_utc": "2026-10-02T22:16:58.896726+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:58.899116+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ct0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Connecticut/All_Geographies_Not_Tracts_Block_Groups/20195ct0117000.zip",
+    "sha256": "e8f49a20e62398f56e9d1c618a4ee655771dde90eadf0f3834d1e4b0bb9de7d3",
+    "bytes": 1271891,
+    "local_file_timestamp_utc": "2026-10-02T22:16:59.175651+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.181638+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195de.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Delaware/All_Geographies_Not_Tracts_Block_Groups/g20195de.csv?download=1",
+    "sha256": "068411246b38aa283b0aaf40be0df5876b5f44837edeb87ceb24bcc8b70e2911",
+    "bytes": 208010,
+    "local_file_timestamp_utc": "2026-10-02T22:16:58.586601+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:58.589041+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195de0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Delaware/All_Geographies_Not_Tracts_Block_Groups/20195de0058000.zip",
+    "sha256": "1f2410b55329d3764e9cb79db8d119495e0ae60e4795bf1e3d8755899a12ad1a",
+    "bytes": 141553,
+    "local_file_timestamp_utc": "2026-10-02T22:16:58.998454+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.001400+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195de0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Delaware/All_Geographies_Not_Tracts_Block_Groups/20195de0117000.zip",
+    "sha256": "69721acda9d4a395c0003956f93d5d7ce42a19abc0f58a5e81f1d4cd264d2254",
+    "bytes": 270292,
+    "local_file_timestamp_utc": "2026-10-02T22:16:59.480273+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.483258+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195dc.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/DistrictOfColumbia/All_Geographies_Not_Tracts_Block_Groups/g20195dc.csv?download=1",
+    "sha256": "1b4db57c93d806e6043fb01d78fe3b18074eec0007c1e2c57fa926f987aa7014",
+    "bytes": 119201,
+    "local_file_timestamp_utc": "2026-10-02T22:16:59.081978+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.084569+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195dc0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/DistrictOfColumbia/All_Geographies_Not_Tracts_Block_Groups/20195dc0058000.zip",
+    "sha256": "d13ed32937d0ce953d95039cb6e2a5103e83daf20a4c9f6cb7b86c3ccee92b94",
+    "bytes": 11094,
+    "local_file_timestamp_utc": "2026-10-02T22:16:59.380546+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.383957+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195dc0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/DistrictOfColumbia/All_Geographies_Not_Tracts_Block_Groups/20195dc0117000.zip",
+    "sha256": "b8f0b60f9730a886fb9eef90a0a2a12fb0356043e5e13f49e787f92a80aea0d5",
+    "bytes": 17011,
+    "local_file_timestamp_utc": "2026-10-02T22:16:59.610000+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.612477+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195fl.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Florida/All_Geographies_Not_Tracts_Block_Groups/g20195fl.csv?download=1",
+    "sha256": "4bbef2d55f96f495d5ea1d895cbdbff16ea0288fb60cb02374471d856b548e8b",
+    "bytes": 3287677,
+    "local_file_timestamp_utc": "2026-10-02T22:16:59.548268+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.554043+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195fl0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Florida/All_Geographies_Not_Tracts_Block_Groups/20195fl0058000.zip",
+    "sha256": "a722977e53515f3d5bbc7200b5e14736e8a50cd482a35103fcf69f605ea10193",
+    "bytes": 1757154,
+    "local_file_timestamp_utc": "2026-10-02T22:16:59.675890+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.679018+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195fl0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Florida/All_Geographies_Not_Tracts_Block_Groups/20195fl0117000.zip",
+    "sha256": "8d610bccd20fec2372afc485039dc851f7fc0d3c0c4c2054308a7b630bc634c8",
+    "bytes": 2805910,
+    "local_file_timestamp_utc": "2026-10-02T22:17:00.161572+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:00.168045+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ga.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Georgia/All_Geographies_Not_Tracts_Block_Groups/g20195ga.csv?download=1",
+    "sha256": "078570a67e7f4ef3945ca720a2fa67498c8daaafd06285c39941b2909f8a2207",
+    "bytes": 2019009,
+    "local_file_timestamp_utc": "2026-10-02T22:16:59.812114+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:16:59.815244+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ga0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Georgia/All_Geographies_Not_Tracts_Block_Groups/20195ga0058000.zip",
+    "sha256": "fd14442fa3528a77ee28d959f7f91f1b9c4290294040c0d41edb6c6a98f978e4",
+    "bytes": 1701614,
+    "local_file_timestamp_utc": "2026-10-02T22:17:00.429820+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:00.436874+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ga0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Georgia/All_Geographies_Not_Tracts_Block_Groups/20195ga0117000.zip",
+    "sha256": "5a2adb50ca79fc44b2b79985f942c835ce31ae707fe2d13f84a44389ad30b970",
+    "bytes": 2913153,
+    "local_file_timestamp_utc": "2026-10-02T22:17:00.423567+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:00.430943+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195hi.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Hawaii/All_Geographies_Not_Tracts_Block_Groups/g20195hi.csv?download=1",
+    "sha256": "df99ce52d9f749a89e81ed23348ef5ecb1ca77fcdcaaf18be24eaa63e14b121c",
+    "bytes": 389583,
+    "local_file_timestamp_utc": "2026-10-02T22:17:00.019300+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:00.023828+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195hi0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Hawaii/All_Geographies_Not_Tracts_Block_Groups/20195hi0058000.zip",
+    "sha256": "9fb6a41e0b2a9475eeede25bea9eac37d92125876febb7cb00294e72716c7508",
+    "bytes": 332674,
+    "local_file_timestamp_utc": "2026-10-02T22:17:01.052012+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:01.055611+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195hi0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Hawaii/All_Geographies_Not_Tracts_Block_Groups/20195hi0117000.zip",
+    "sha256": "cd356c811b28b54709afa334be8c50720f9880f32df44b05b0f029ae966971d2",
+    "bytes": 485202,
+    "local_file_timestamp_utc": "2026-10-02T22:17:00.791876+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:00.797887+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195id.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Idaho/All_Geographies_Not_Tracts_Block_Groups/g20195id.csv?download=1",
+    "sha256": "c53accbe043a497f7a6f80c3d801e19346504494bd5564e26819cf185ef11062",
+    "bytes": 457991,
+    "local_file_timestamp_utc": "2026-10-02T22:17:00.657152+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:00.662162+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195id0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Idaho/All_Geographies_Not_Tracts_Block_Groups/20195id0058000.zip",
+    "sha256": "328756fac39be8bb4e92c3ce4abdb9065189d496d54b81b6873f799e227b3b52",
+    "bytes": 443437,
+    "local_file_timestamp_utc": "2026-10-02T22:17:00.929121+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:00.934248+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195id0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Idaho/All_Geographies_Not_Tracts_Block_Groups/20195id0117000.zip",
+    "sha256": "b4150e4a97b5b23c9b88d2c878fb5499d769acb739252fe48e07e65e03034c7a",
+    "bytes": 867774,
+    "local_file_timestamp_utc": "2026-10-02T22:17:01.307550+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:01.312973+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195il.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Illinois/All_Geographies_Not_Tracts_Block_Groups/g20195il.csv?download=1",
+    "sha256": "2fed343febfb7cca941c968de62f27b9404430003d43be5c756fc00fde5afcc3",
+    "bytes": 3750071,
+    "local_file_timestamp_utc": "2026-10-02T22:17:01.132300+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:01.137008+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195il0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Illinois/All_Geographies_Not_Tracts_Block_Groups/20195il0058000.zip",
+    "sha256": "39489b46128d502e9418d76be484efa8bcca90c510643410b591c527ea37143d",
+    "bytes": 2288911,
+    "local_file_timestamp_utc": "2026-10-02T22:17:01.640789+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:01.648558+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195il0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Illinois/All_Geographies_Not_Tracts_Block_Groups/20195il0117000.zip",
+    "sha256": "daec0799ac99d7ccade0d9c57f1d5280865890252d40953cd991e12a1a6c5d32",
+    "bytes": 4434479,
+    "local_file_timestamp_utc": "2026-10-02T22:17:02.103786+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:02.108575+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195in.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Indiana/All_Geographies_Not_Tracts_Block_Groups/g20195in.csv?download=1",
+    "sha256": "25714082ee574eaa2850b8214e226ace2ea2b06337cfcf78d1cb78dee84e5d38",
+    "bytes": 1934741,
+    "local_file_timestamp_utc": "2026-10-02T22:17:01.413594+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:01.418059+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195in0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Indiana/All_Geographies_Not_Tracts_Block_Groups/20195in0058000.zip",
+    "sha256": "c24e378a20e4e3264767015c5f2dd317034961b825f2e02be0d84a8daa3969a6",
+    "bytes": 1372401,
+    "local_file_timestamp_utc": "2026-10-02T22:17:02.018078+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:02.023640+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195in0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Indiana/All_Geographies_Not_Tracts_Block_Groups/20195in0117000.zip",
+    "sha256": "8671a42e4c3b387cb1fd78feb3b6247865f9ac36e1a14bdecac0c3105a22af46",
+    "bytes": 2767669,
+    "local_file_timestamp_utc": "2026-10-02T22:17:02.085669+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:02.089520+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ia.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Iowa/All_Geographies_Not_Tracts_Block_Groups/g20195ia.csv?download=1",
+    "sha256": "097851632b030d4f64468a0204e58d4b3a036d403a867e96ce492215b0430f62",
+    "bytes": 1754621,
+    "local_file_timestamp_utc": "2026-10-02T22:17:02.009143+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:02.016429+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ia0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Iowa/All_Geographies_Not_Tracts_Block_Groups/20195ia0058000.zip",
+    "sha256": "ff41138ec67f2df17c884c0cf514cf531762f2da6fb909942eacfbb075ae9e1e",
+    "bytes": 1255988,
+    "local_file_timestamp_utc": "2026-10-02T22:17:02.745048+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:02.752101+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ia0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Iowa/All_Geographies_Not_Tracts_Block_Groups/20195ia0117000.zip",
+    "sha256": "d9d64ffca01336efe1dfd70af942fa1b490bc46a3077202ee7ec55ba7f6b44e1",
+    "bytes": 2726781,
+    "local_file_timestamp_utc": "2026-10-02T22:17:02.890654+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:02.896362+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ks.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Kansas/All_Geographies_Not_Tracts_Block_Groups/g20195ks.csv?download=1",
+    "sha256": "c0a9586c051f392991bf3efbac7d957f2546992474efbe6405615707ef5d0cbd",
+    "bytes": 1472158,
+    "local_file_timestamp_utc": "2026-10-02T22:17:02.330249+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:02.335811+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ks0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Kansas/All_Geographies_Not_Tracts_Block_Groups/20195ks0058000.zip",
+    "sha256": "5e504434b84cc94b45cbd1b7f2eb3e08a0553b07f64e1ab77e10d983795a4b60",
+    "bytes": 1125424,
+    "local_file_timestamp_utc": "2026-10-02T22:17:02.989633+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:02.994188+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ks0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Kansas/All_Geographies_Not_Tracts_Block_Groups/20195ks0117000.zip",
+    "sha256": "3499df3479547c04cd3a9385dccb6a2e8b5aaa2c11ef71248c93580ad42833bd",
+    "bytes": 2150898,
+    "local_file_timestamp_utc": "2026-10-02T22:17:03.255079+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:03.261530+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ky.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Kentucky/All_Geographies_Not_Tracts_Block_Groups/g20195ky.csv?download=1",
+    "sha256": "c765a7cc8d3abcf8b642c45d445b6486d74b06c8661300f36ca0b158dfc50f8b",
+    "bytes": 1344987,
+    "local_file_timestamp_utc": "2026-10-02T22:17:03.001032+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:03.003700+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ky0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Kentucky/All_Geographies_Not_Tracts_Block_Groups/20195ky0058000.zip",
+    "sha256": "aa1c4852f20c0616d8cb19100208114079ccfc9310fd9b87d333ed7e078f77e3",
+    "bytes": 986532,
+    "local_file_timestamp_utc": "2026-10-02T22:17:03.400849+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:03.405325+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ky0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Kentucky/All_Geographies_Not_Tracts_Block_Groups/20195ky0117000.zip",
+    "sha256": "6d71f698850c748caacfc0a9a2a387a8f9d1887c7f435920e427dfb01f79093e",
+    "bytes": 2047435,
+    "local_file_timestamp_utc": "2026-10-02T22:17:03.899826+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:03.906787+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195la.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Louisiana/All_Geographies_Not_Tracts_Block_Groups/g20195la.csv?download=1",
+    "sha256": "d7f3e078f8f10468385b3218c37412040982dd0b8339d3597e5c0371ec8515f8",
+    "bytes": 1407804,
+    "local_file_timestamp_utc": "2026-10-02T22:17:03.332535+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:03.337096+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195la0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Louisiana/All_Geographies_Not_Tracts_Block_Groups/20195la0058000.zip",
+    "sha256": "1e814f66ef873e676adfb52bb9d7f2590def42a9be8322f03fcb265a9b771a91",
+    "bytes": 1023944,
+    "local_file_timestamp_utc": "2026-10-02T22:17:03.938233+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:03.942199+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195la0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Louisiana/All_Geographies_Not_Tracts_Block_Groups/20195la0117000.zip",
+    "sha256": "21f44d4f0588e9d62be5346aa6946884c61ca01c382f44574065953d6f42f6be",
+    "bytes": 1821139,
+    "local_file_timestamp_utc": "2026-10-02T22:17:04.651407+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:04.657261+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195me.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Maine/All_Geographies_Not_Tracts_Block_Groups/g20195me.csv?download=1",
+    "sha256": "06ea428b8d30643282634ce873fae9fc4c28dfe88cb98bafbc429440f332b8d9",
+    "bytes": 644333,
+    "local_file_timestamp_utc": "2026-10-02T22:17:03.667758+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:03.673263+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195me0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Maine/All_Geographies_Not_Tracts_Block_Groups/20195me0058000.zip",
+    "sha256": "537db1dda4383a0e540acc0aa7f6c4ee1ae5f1d76115dbe5d8dd2c1afe190a56",
+    "bytes": 526432,
+    "local_file_timestamp_utc": "2026-10-02T22:17:04.334548+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:04.339306+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195me0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Maine/All_Geographies_Not_Tracts_Block_Groups/20195me0117000.zip",
+    "sha256": "2cddc519a4809e448eb4c5e4e9ada62ca28739b462fe1f32af1b2622c54f43ec",
+    "bytes": 1227614,
+    "local_file_timestamp_utc": "2026-10-02T22:17:04.633448+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:04.639923+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195md.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Maryland/All_Geographies_Not_Tracts_Block_Groups/g20195md.csv?download=1",
+    "sha256": "19fbadf7eac72138408086239c35316e7260913826f077b7c57ceb2f9ef39e64",
+    "bytes": 1348053,
+    "local_file_timestamp_utc": "2026-10-02T22:17:04.200822+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:04.206648+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195md0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Maryland/All_Geographies_Not_Tracts_Block_Groups/20195md0058000.zip",
+    "sha256": "b6c83d002530fcfe236760d9c5b16c67c8946709ecc5bc00219f2c68a6937253",
+    "bytes": 790771,
+    "local_file_timestamp_utc": "2026-10-02T22:17:04.924495+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:04.931055+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195md0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Maryland/All_Geographies_Not_Tracts_Block_Groups/20195md0117000.zip",
+    "sha256": "296f4431fa23429a0e7065d18f597259ae26231c7e30c829d3fdce0661433a55",
+    "bytes": 1336481,
+    "local_file_timestamp_utc": "2026-10-02T22:17:05.150296+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:05.155447+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ma.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Massachusetts/All_Geographies_Not_Tracts_Block_Groups/g20195ma.csv?download=1",
+    "sha256": "8fdd6a3f780dd6a95fe8713c86c79170029f70b57ff0a81ad8c18019b6891ad9",
+    "bytes": 1718238,
+    "local_file_timestamp_utc": "2026-10-02T22:17:04.955845+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:04.960341+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ma0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Massachusetts/All_Geographies_Not_Tracts_Block_Groups/20195ma0058000.zip",
+    "sha256": "1ae010264ef2b18b0ed6503c36e4c18106e33bb34cee444f01e1fdceae1c5e66",
+    "bytes": 1298561,
+    "local_file_timestamp_utc": "2026-10-02T22:17:04.955561+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:04.960106+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ma0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Massachusetts/All_Geographies_Not_Tracts_Block_Groups/20195ma0117000.zip",
+    "sha256": "983c71cc353c2d380e0fdd81922431d304ae5d2d7ef55a6c38aea813b8e61dae",
+    "bytes": 2411949,
+    "local_file_timestamp_utc": "2026-10-02T22:17:05.606292+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:05.613833+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195mi.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Michigan/All_Geographies_Not_Tracts_Block_Groups/g20195mi.csv?download=1",
+    "sha256": "c451cd22ec78e26a0ef613d1aecd05ad856194facb93506e3b348667dc204a55",
+    "bytes": 2823692,
+    "local_file_timestamp_utc": "2026-10-02T22:17:05.620347+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:05.626258+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195mi0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Michigan/All_Geographies_Not_Tracts_Block_Groups/20195mi0058000.zip",
+    "sha256": "7f7318493858313a041a6c460eaab419bd70c420a8d3da3ee6700c2d642aed55",
+    "bytes": 1713196,
+    "local_file_timestamp_utc": "2026-10-02T22:17:05.665567+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:05.669444+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195mi0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Michigan/All_Geographies_Not_Tracts_Block_Groups/20195mi0117000.zip",
+    "sha256": "a4bcd6e3af5ac111578ba034edbbe8f286826aaaa7427db09af819b72b03c466",
+    "bytes": 3301286,
+    "local_file_timestamp_utc": "2026-10-02T22:17:06.061578+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:06.067422+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195mn.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Minnesota/All_Geographies_Not_Tracts_Block_Groups/g20195mn.csv?download=1",
+    "sha256": "f613c10580074c86013f8206e1de282a994153f0fce1144c4a64cdc30f9e877e",
+    "bytes": 2296888,
+    "local_file_timestamp_utc": "2026-10-02T22:17:05.991718+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:05.998906+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195mn0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Minnesota/All_Geographies_Not_Tracts_Block_Groups/20195mn0058000.zip",
+    "sha256": "76c16c5d3a946796b2bfa3e4b991541a7eba59d39f212de159e4ec496ad37580",
+    "bytes": 1689321,
+    "local_file_timestamp_utc": "2026-10-02T22:17:06.219495+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:06.223600+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195mn0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Minnesota/All_Geographies_Not_Tracts_Block_Groups/20195mn0117000.zip",
+    "sha256": "2cc0416578527ceaaa2263910c85a2f05e1669edd89c46df30d2341d70ea14ff",
+    "bytes": 3469438,
+    "local_file_timestamp_utc": "2026-10-02T22:17:06.487807+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:06.495147+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ms.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Mississippi/All_Geographies_Not_Tracts_Block_Groups/g20195ms.csv?download=1",
+    "sha256": "609c148640a10fb1f4e4bfed7db90a7ffe2b5473120533ba9c74aad2ddef09b7",
+    "bytes": 1013342,
+    "local_file_timestamp_utc": "2026-10-02T22:17:06.257129+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:06.260563+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ms0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Mississippi/All_Geographies_Not_Tracts_Block_Groups/20195ms0058000.zip",
+    "sha256": "a478a3040de138c035716390c886c84f7b967d95adeae18008556eef43eaa5f3",
+    "bytes": 846095,
+    "local_file_timestamp_utc": "2026-10-02T22:17:07.005537+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:07.009280+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ms0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Mississippi/All_Geographies_Not_Tracts_Block_Groups/20195ms0117000.zip",
+    "sha256": "50ba044e4387206aee9959b22ce74fdd80c133c183a59204c9f81c4926a8a9cd",
+    "bytes": 1622031,
+    "local_file_timestamp_utc": "2026-10-02T22:17:06.950995+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:06.958400+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195mo.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Missouri/All_Geographies_Not_Tracts_Block_Groups/g20195mo.csv?download=1",
+    "sha256": "4d5ab45a95532bd2f440a677672ff8c2f5f3bb4e3e77a6bd44cf5f50711d79ec",
+    "bytes": 2216486,
+    "local_file_timestamp_utc": "2026-10-02T22:17:06.656321+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:06.663116+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195mo0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Missouri/All_Geographies_Not_Tracts_Block_Groups/20195mo0058000.zip",
+    "sha256": "a2329f6598034e65a02f6cc8cb15a80c6d03645889228e48446e8eaef4f79ae2",
+    "bytes": 1533317,
+    "local_file_timestamp_utc": "2026-10-02T22:17:07.129088+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:07.133274+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195mo0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Missouri/All_Geographies_Not_Tracts_Block_Groups/20195mo0117000.zip",
+    "sha256": "78790cd1192d213d430444532bb119ad4daf71dec4ddbf402081682d52bbc641",
+    "bytes": 3147789,
+    "local_file_timestamp_utc": "2026-10-02T22:17:07.472926+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:07.479807+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195mt.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Montana/All_Geographies_Not_Tracts_Block_Groups/g20195mt.csv?download=1",
+    "sha256": "1ab4cac1363c17657a25951ef2d67eb70e25df9f53fc588cbb80cca465251410",
+    "bytes": 586073,
+    "local_file_timestamp_utc": "2026-10-02T22:17:07.227722+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:07.231143+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195mt0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Montana/All_Geographies_Not_Tracts_Block_Groups/20195mt0058000.zip",
+    "sha256": "0401de1470bbad2f9d8afafc8f12ae9646c9a133919d8a23827f5b295c733ae9",
+    "bytes": 531109,
+    "local_file_timestamp_utc": "2026-10-02T22:17:07.955709+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:07.960949+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195mt0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Montana/All_Geographies_Not_Tracts_Block_Groups/20195mt0117000.zip",
+    "sha256": "35fa465d12ffae7a5370dffae4e2f2a6f514043309b9b4b6bad96a51eda5f5a9",
+    "bytes": 1119504,
+    "local_file_timestamp_utc": "2026-10-02T22:17:07.870849+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:07.876775+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ne.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Nebraska/All_Geographies_Not_Tracts_Block_Groups/g20195ne.csv?download=1",
+    "sha256": "b33dbc0de48dcce2eb2e2e31a8b3c7db7a6e155409c44f0406f97c76eed4c952",
+    "bytes": 1115219,
+    "local_file_timestamp_utc": "2026-10-02T22:17:07.537408+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:07.540782+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ne0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Nebraska/All_Geographies_Not_Tracts_Block_Groups/20195ne0058000.zip",
+    "sha256": "94a45f85f54ceab33c6d9a36f3ab687a710eab8af8d28064394d8f558dc50ec1",
+    "bytes": 709072,
+    "local_file_timestamp_utc": "2026-10-02T22:17:08.221848+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:08.224961+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ne0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Nebraska/All_Geographies_Not_Tracts_Block_Groups/20195ne0117000.zip",
+    "sha256": "1cea8b86ee560c668425b412b78f3c9db2f41a8de43894c01614fcba111bc494",
+    "bytes": 1492084,
+    "local_file_timestamp_utc": "2026-10-02T22:17:08.263432+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:08.267211+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195nv.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Nevada/All_Geographies_Not_Tracts_Block_Groups/g20195nv.csv?download=1",
+    "sha256": "f4836f55c2921c3f55447a9b019f417f3921d1f5fcd3e38331d54e9d0d7f614e",
+    "bytes": 564329,
+    "local_file_timestamp_utc": "2026-10-02T22:17:08.193002+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:08.198408+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nv0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Nevada/All_Geographies_Not_Tracts_Block_Groups/20195nv0058000.zip",
+    "sha256": "955e268ad012c12acb9694d718c236c6cadd52dff88ec53607cb401858994863",
+    "bytes": 292216,
+    "local_file_timestamp_utc": "2026-10-02T22:17:08.467611+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:08.469015+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nv0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Nevada/All_Geographies_Not_Tracts_Block_Groups/20195nv0117000.zip",
+    "sha256": "7d011c58a32cd273f1b15852c0d5d1188ad85d96b3dcfcbca52956d9f309aec7",
+    "bytes": 451006,
+    "local_file_timestamp_utc": "2026-10-02T22:17:08.916698+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:17:08.918079+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195nh.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewHampshire/All_Geographies_Not_Tracts_Block_Groups/g20195nh.csv?download=1",
+    "sha256": "6223511cd60c28b9c533ffa8d15ecbdd5230e7556e7e54259ef98b7bf3c9fed1",
+    "bytes": 536815,
+    "local_file_timestamp_utc": "2026-10-02T22:18:03.614400+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:03.617124+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nh0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewHampshire/All_Geographies_Not_Tracts_Block_Groups/20195nh0058000.zip",
+    "sha256": "d0d936432ff8a42d8b4ea94addf23e9826f2cc67e81c9eb5e47d67c7f424e2f9",
+    "bytes": 454530,
+    "local_file_timestamp_utc": "2026-10-02T22:17:08.854887+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:03.378634+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nh0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewHampshire/All_Geographies_Not_Tracts_Block_Groups/20195nh0117000.zip",
+    "sha256": "130cc04b8fa7141a52c5344c6f44eccf4e3ddf3a1b32414b2c817d32d0b87fd5",
+    "bytes": 1025185,
+    "local_file_timestamp_utc": "2026-10-02T22:17:09.029366+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:03.381058+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195nj.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewJersey/All_Geographies_Not_Tracts_Block_Groups/g20195nj.csv?download=1",
+    "sha256": "877936490cf2839df51ed6bbba657fc3815001d928f1d733a627efe57bf01b9a",
+    "bytes": 1903894,
+    "local_file_timestamp_utc": "2026-10-02T22:18:21.471201+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:21.478889+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nj0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewJersey/All_Geographies_Not_Tracts_Block_Groups/20195nj0058000.zip",
+    "sha256": "93e70a1c23ce2aab19905ad97916eddddfcc823128167552734818f3797586e3",
+    "bytes": 1220780,
+    "local_file_timestamp_utc": "2026-10-02T22:17:09.353506+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:19.884533+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nj0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewJersey/All_Geographies_Not_Tracts_Block_Groups/20195nj0117000.zip",
+    "sha256": "a7e6a10252333aa3f399e9ec14d1901ef69da6465eed0b4ab856bc2c46e4e7cd",
+    "bytes": 2072673,
+    "local_file_timestamp_utc": "2026-10-02T22:17:09.715095+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:19.886381+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195nm.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewMexico/All_Geographies_Not_Tracts_Block_Groups/g20195nm.csv?download=1",
+    "sha256": "2593facf30c756093763f2e5928c44b28f54dd001ee4b5ef38a6169115d0eb02",
+    "bytes": 748349,
+    "local_file_timestamp_utc": "2026-10-02T22:17:09.115512+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:19.885868+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nm0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewMexico/All_Geographies_Not_Tracts_Block_Groups/20195nm0058000.zip",
+    "sha256": "44f4df17189e9f6c8db8d86c69c365347123f87a7f8239578b16e6f22f2287a8",
+    "bytes": 671675,
+    "local_file_timestamp_utc": "2026-10-02T22:18:04.125959+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:19.886060+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nm0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewMexico/All_Geographies_Not_Tracts_Block_Groups/20195nm0117000.zip",
+    "sha256": "ed3b9e5acf999806564a4d4c4413d94ed486f60cc1e05b9fa334bca783fb9051",
+    "bytes": 1088390,
+    "local_file_timestamp_utc": "2026-10-02T22:18:04.055797+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:19.887779+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ny.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewYork/All_Geographies_Not_Tracts_Block_Groups/g20195ny.csv?download=1",
+    "sha256": "0f088449f1c09618751bcbd644f66ae0bacd50d7cd94b7b0281ed94cf492e7fc",
+    "bytes": 4443444,
+    "local_file_timestamp_utc": "2026-10-02T22:18:03.901222+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:19.894060+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ny0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewYork/All_Geographies_Not_Tracts_Block_Groups/20195ny0058000.zip",
+    "sha256": "1d5f700d0e2d58d62c398aa539eb783bc81aa9cf51a998abba8a0245ebf9c5a9",
+    "bytes": 2138253,
+    "local_file_timestamp_utc": "2026-10-02T22:18:04.009558+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:19.891479+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ny0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NewYork/All_Geographies_Not_Tracts_Block_Groups/20195ny0117000.zip",
+    "sha256": "b0c3a57b0dd23a4a30ea9e378de008a513c07aa708e12f55915af2c070cf3d4d",
+    "bytes": 3915589,
+    "local_file_timestamp_utc": "2026-10-02T22:18:20.564619+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:20.573672+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195nc.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NorthCarolina/All_Geographies_Not_Tracts_Block_Groups/g20195nc.csv?download=1",
+    "sha256": "492239590e535e14569ac8eebf2606059ca80b3069646ce1dde5c3034633b10c",
+    "bytes": 2511259,
+    "local_file_timestamp_utc": "2026-10-02T22:18:22.066170+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:22.074984+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nc0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NorthCarolina/All_Geographies_Not_Tracts_Block_Groups/20195nc0058000.zip",
+    "sha256": "9e0c45a6f96c21e59b1b080f399f0ac1a8afe2fff717343cc78fce54892b9832",
+    "bytes": 1732058,
+    "local_file_timestamp_utc": "2026-10-02T22:18:20.425058+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:20.431393+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nc0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NorthCarolina/All_Geographies_Not_Tracts_Block_Groups/20195nc0117000.zip",
+    "sha256": "d36a2283397f2c30af4947909d6965134043713d7a9b8649811afa1ea85cf015",
+    "bytes": 3000911,
+    "local_file_timestamp_utc": "2026-10-02T22:18:21.129100+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:21.136762+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195nd.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NorthDakota/All_Geographies_Not_Tracts_Block_Groups/g20195nd.csv?download=1",
+    "sha256": "aaec2fb2d36e7494de176e0290d916f7f097ad19331a516bf8c2221944454529",
+    "bytes": 927963,
+    "local_file_timestamp_utc": "2026-10-02T22:18:21.756438+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:21.761130+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nd0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NorthDakota/All_Geographies_Not_Tracts_Block_Groups/20195nd0058000.zip",
+    "sha256": "8f8ce1c60bdc159e2514828cb5a4a125bf4ea8023f432dd2b5a9adb664a27d31",
+    "bytes": 528600,
+    "local_file_timestamp_utc": "2026-10-02T22:18:21.682950+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:21.687832+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195nd0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/NorthDakota/All_Geographies_Not_Tracts_Block_Groups/20195nd0117000.zip",
+    "sha256": "7891e4d03e31879bc562dc699699abdb356637674162a3f0e87eb638f3f83be2",
+    "bytes": 1090932,
+    "local_file_timestamp_utc": "2026-10-02T22:18:22.114028+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:22.117689+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195oh.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Ohio/All_Geographies_Not_Tracts_Block_Groups/g20195oh.csv?download=1",
+    "sha256": "0bdd69654bb717430c4cd0454ad1267e59913f1dc2a496ffae5c7558c93b84cc",
+    "bytes": 3254903,
+    "local_file_timestamp_utc": "2026-10-02T22:18:24.048843+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:24.052886+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195oh0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Ohio/All_Geographies_Not_Tracts_Block_Groups/20195oh0058000.zip",
+    "sha256": "3ac2f7286953ef0896c1cd1015142537be77eec9dd106323c90f32381366da40",
+    "bytes": 2005930,
+    "local_file_timestamp_utc": "2026-10-02T22:18:22.678929+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:22.690940+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195oh0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Ohio/All_Geographies_Not_Tracts_Block_Groups/20195oh0117000.zip",
+    "sha256": "ea58c45c5c668e66dfe63210655590ee4b7c31fe42d0631fd28c9f95ad825f2a",
+    "bytes": 4067843,
+    "local_file_timestamp_utc": "2026-10-02T22:18:22.848468+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:22.854086+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ok.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Oklahoma/All_Geographies_Not_Tracts_Block_Groups/g20195ok.csv?download=1",
+    "sha256": "0079e3d6fa5d799cf1b8926d2b0f8dae0e4134ff3cc83cc610b02c322d3ad367",
+    "bytes": 1491562,
+    "local_file_timestamp_utc": "2026-10-02T22:18:23.595434+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:23.602212+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ok0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Oklahoma/All_Geographies_Not_Tracts_Block_Groups/20195ok0058000.zip",
+    "sha256": "3abd89d8ce73be54a17c6c189378b0e535e4d2b7a9f57bdc942d2b1a5b8d65b9",
+    "bytes": 1571442,
+    "local_file_timestamp_utc": "2026-10-02T22:18:23.292818+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:23.295747+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ok0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Oklahoma/All_Geographies_Not_Tracts_Block_Groups/20195ok0117000.zip",
+    "sha256": "d1dd2c167a616477f93f7331d4982b52de86af5dbc1bca388b476ee4e34a04f8",
+    "bytes": 2599608,
+    "local_file_timestamp_utc": "2026-10-02T22:18:23.722235+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:23.725531+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195or.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Oregon/All_Geographies_Not_Tracts_Block_Groups/g20195or.csv?download=1",
+    "sha256": "3bff0fe78dee8436f101d060e533dd17b0955a752206cd5ecc7e3d59854c0485",
+    "bytes": 951557,
+    "local_file_timestamp_utc": "2026-10-02T22:18:24.331702+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:24.334178+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195or0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Oregon/All_Geographies_Not_Tracts_Block_Groups/20195or0058000.zip",
+    "sha256": "c4c5550250e4d0daf3c77cd2dca568496f2c49bf010c3416bb8e17b919c9633e",
+    "bytes": 783119,
+    "local_file_timestamp_utc": "2026-10-02T22:18:24.645472+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:24.651718+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195or0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Oregon/All_Geographies_Not_Tracts_Block_Groups/20195or0117000.zip",
+    "sha256": "9840d8342d3ee55d42f119365086d2c03ae2f1d3d9e8117b9c51228ad901f857",
+    "bytes": 1367597,
+    "local_file_timestamp_utc": "2026-10-02T22:18:24.390522+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:24.392855+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195pa.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Pennsylvania/All_Geographies_Not_Tracts_Block_Groups/g20195pa.csv?download=1",
+    "sha256": "32facbbe7301a494e5ea00d3c49aea84e5d012ebd7379de3fb186281ecbfa386",
+    "bytes": 3960189,
+    "local_file_timestamp_utc": "2026-10-02T22:18:26.716444+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:26.723451+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195pa0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Pennsylvania/All_Geographies_Not_Tracts_Block_Groups/20195pa0058000.zip",
+    "sha256": "7e6990a5a1fcb7fd7c9f2332eedfaf3099771cb17102c68bca12e3b28c3ea273",
+    "bytes": 2434963,
+    "local_file_timestamp_utc": "2026-10-02T22:18:25.148226+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:25.151712+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195pa0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Pennsylvania/All_Geographies_Not_Tracts_Block_Groups/20195pa0117000.zip",
+    "sha256": "f876535b55c7b7c6337fe8e677fb0fe2620c469559752b2ef3f10f8401b79d5c",
+    "bytes": 5069848,
+    "local_file_timestamp_utc": "2026-10-02T22:18:25.347380+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:25.354662+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ri.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/RhodeIsland/All_Geographies_Not_Tracts_Block_Groups/g20195ri.csv?download=1",
+    "sha256": "d4d53372c9dfd5816d105f1ee1e7890301eb9522b586811604988a5642a9645e",
+    "bytes": 276319,
+    "local_file_timestamp_utc": "2026-10-02T22:18:25.229357+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:25.231114+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ri0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/RhodeIsland/All_Geographies_Not_Tracts_Block_Groups/20195ri0058000.zip",
+    "sha256": "0ea1b274aca97b44e241182b22ceb45021d92978f9bec864d626944daf231b0b",
+    "bytes": 205401,
+    "local_file_timestamp_utc": "2026-10-02T22:18:25.811663+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:25.817006+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ri0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/RhodeIsland/All_Geographies_Not_Tracts_Block_Groups/20195ri0117000.zip",
+    "sha256": "dcd86f61a5999910dbe1d4fed7089f62b7e389b5e3218b3f4711d408496a4ef2",
+    "bytes": 388637,
+    "local_file_timestamp_utc": "2026-10-02T22:18:26.047948+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:26.053774+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195sc.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/SouthCarolina/All_Geographies_Not_Tracts_Block_Groups/g20195sc.csv?download=1",
+    "sha256": "0ac1643e60ab2ba765184ae0ce9f9772815c6388c06c1f34b99ca8b34b01cc24",
+    "bytes": 1175142,
+    "local_file_timestamp_utc": "2026-10-02T22:18:26.468913+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:26.473319+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195sc0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/SouthCarolina/All_Geographies_Not_Tracts_Block_Groups/20195sc0058000.zip",
+    "sha256": "d0db8d1894c227d4ed4d994071175cd59e96e0530b24edd8c2a0b0ad86504e09",
+    "bytes": 882414,
+    "local_file_timestamp_utc": "2026-10-02T22:18:26.450613+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:26.456374+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195sc0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/SouthCarolina/All_Geographies_Not_Tracts_Block_Groups/20195sc0117000.zip",
+    "sha256": "db29934b7d55b5513832570e286a589ec52753558ec8002fe9ebd85a2d75fae8",
+    "bytes": 1535680,
+    "local_file_timestamp_utc": "2026-10-02T22:18:26.676224+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:26.684124+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195sd.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/SouthDakota/All_Geographies_Not_Tracts_Block_Groups/g20195sd.csv?download=1",
+    "sha256": "34ddf1eb997435575bbca38562991a5665025b8c77df4debc16521a053c43b9d",
+    "bytes": 838750,
+    "local_file_timestamp_utc": "2026-10-02T22:18:27.486517+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:27.494232+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195sd0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/SouthDakota/All_Geographies_Not_Tracts_Block_Groups/20195sd0058000.zip",
+    "sha256": "e78cf14f4d8645625d3d409677c9309d09aad9fc03aba819c4f6978f9a675a47",
+    "bytes": 541338,
+    "local_file_timestamp_utc": "2026-10-02T22:18:26.894552+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:26.899019+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195sd0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/SouthDakota/All_Geographies_Not_Tracts_Block_Groups/20195sd0117000.zip",
+    "sha256": "f4f07ffefad66050056d901f656a9909068c346fdb541fd296f9c46b656cc39d",
+    "bytes": 1183039,
+    "local_file_timestamp_utc": "2026-10-02T22:18:27.579437+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:27.583273+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195tn.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Tennessee/All_Geographies_Not_Tracts_Block_Groups/g20195tn.csv?download=1",
+    "sha256": "872ac7253ef1397e58f33c6a6eebb287c7b7661466b35682a0980c584751bf56",
+    "bytes": 1648070,
+    "local_file_timestamp_utc": "2026-10-02T22:18:27.986960+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:27.993901+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195tn0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Tennessee/All_Geographies_Not_Tracts_Block_Groups/20195tn0058000.zip",
+    "sha256": "ff6ae2d19b0a7dc96ec64195f2a5bbf2a6c8d203035eb093a4d25ba4ae7da9b9",
+    "bytes": 1152109,
+    "local_file_timestamp_utc": "2026-10-02T22:18:27.489021+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:27.495505+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195tn0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Tennessee/All_Geographies_Not_Tracts_Block_Groups/20195tn0117000.zip",
+    "sha256": "b338803bebf91aed9f5c0e75eae5f3b51b55cc6841a5f0b04e37153b18c5e846",
+    "bytes": 2214103,
+    "local_file_timestamp_utc": "2026-10-02T22:18:28.874400+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:28.882657+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195tx.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Texas/All_Geographies_Not_Tracts_Block_Groups/g20195tx.csv?download=1",
+    "sha256": "768be1871472eed20e0d0ab1f754f8c2a3f342fc9a412abdb518e5a1942034b5",
+    "bytes": 5036315,
+    "local_file_timestamp_utc": "2026-10-02T22:18:30.681572+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:30.692510+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195tx0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Texas/All_Geographies_Not_Tracts_Block_Groups/20195tx0058000.zip",
+    "sha256": "9e9eaa092bccd3a1e8fcaa67aa7e7a1e32b1644a80e82cdf823b4c26a48227be",
+    "bytes": 3483303,
+    "local_file_timestamp_utc": "2026-10-02T22:18:28.088663+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:28.095495+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195tx0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Texas/All_Geographies_Not_Tracts_Block_Groups/20195tx0117000.zip",
+    "sha256": "add6a3be5e2af00108387ff7730b20d114f41e783ea4e4bc55ef54ebaa115804",
+    "bytes": 5608052,
+    "local_file_timestamp_utc": "2026-10-02T22:18:28.969972+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:28.977180+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195ut.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Utah/All_Geographies_Not_Tracts_Block_Groups/g20195ut.csv?download=1",
+    "sha256": "c26b79afa200528c07b8f2575848eef4429cd90059c9d3a270e5450bf1005385",
+    "bytes": 634060,
+    "local_file_timestamp_utc": "2026-10-02T22:18:28.919622+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:28.923988+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ut0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Utah/All_Geographies_Not_Tracts_Block_Groups/20195ut0058000.zip",
+    "sha256": "75d596615406d11fdf272f69c17e27467f0530e3565335e1f6d54273c8f920cf",
+    "bytes": 469735,
+    "local_file_timestamp_utc": "2026-10-02T22:18:29.425961+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:29.430678+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195ut0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Utah/All_Geographies_Not_Tracts_Block_Groups/20195ut0117000.zip",
+    "sha256": "f19d8b9271b8b60b08a07326b8a184c2e367d99e09121d349ea12a6f02e5417b",
+    "bytes": 875665,
+    "local_file_timestamp_utc": "2026-10-02T22:18:29.884546+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:29.887431+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195vt.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Vermont/All_Geographies_Not_Tracts_Block_Groups/g20195vt.csv?download=1",
+    "sha256": "6fbaa803316d879d81abd53048e0ac8b91beae623b751dad062ba2186e51774f",
+    "bytes": 355628,
+    "local_file_timestamp_utc": "2026-10-02T22:18:29.659545+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:29.664784+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195vt0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Vermont/All_Geographies_Not_Tracts_Block_Groups/20195vt0058000.zip",
+    "sha256": "32eb2bc40ff7f4e7f22e0252e2b656a068ded588f85980d89186ccb7aa6c15a6",
+    "bytes": 288047,
+    "local_file_timestamp_utc": "2026-10-02T22:18:31.395399+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:31.399638+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195vt0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Vermont/All_Geographies_Not_Tracts_Block_Groups/20195vt0117000.zip",
+    "sha256": "5b9c1a49483c9eabb3f54c71c395606bedcfc4abf501e8bbf240fa070ea3b5aa",
+    "bytes": 671422,
+    "local_file_timestamp_utc": "2026-10-02T22:18:30.579340+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:30.585140+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195va.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Virginia/All_Geographies_Not_Tracts_Block_Groups/g20195va.csv?download=1",
+    "sha256": "5280a76aa6ec40555a1b132e4c1e828bc3e4e2fb302ef620b1a88b82f43b0abd",
+    "bytes": 1910411,
+    "local_file_timestamp_utc": "2026-10-02T22:18:31.903261+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:31.911372+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195va0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Virginia/All_Geographies_Not_Tracts_Block_Groups/20195va0058000.zip",
+    "sha256": "38e3cd791e14443e1fb85f5088fdccdf5345a75a6e9752118d8c1ce52695b064",
+    "bytes": 1371342,
+    "local_file_timestamp_utc": "2026-10-02T22:18:31.595835+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:31.601609+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195va0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Virginia/All_Geographies_Not_Tracts_Block_Groups/20195va0117000.zip",
+    "sha256": "c113bbc76026d29686fffb78c3c30374ad2910d003624246f284d0b4b0021cf6",
+    "bytes": 2414721,
+    "local_file_timestamp_utc": "2026-10-02T22:18:31.730257+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:31.735476+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195wa.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Washington/All_Geographies_Not_Tracts_Block_Groups/g20195wa.csv?download=1",
+    "sha256": "e81bfd01dec4337ae1c20353336fa4bdbd788ada05d899adb796c97a1f2d7ee6",
+    "bytes": 1615250,
+    "local_file_timestamp_utc": "2026-10-02T22:18:33.142645+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:33.146613+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195wa0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Washington/All_Geographies_Not_Tracts_Block_Groups/20195wa0058000.zip",
+    "sha256": "ea98e25636bc0bb3371ca465057535ea189a822ef7592f11661bc26ec7180531",
+    "bytes": 1164377,
+    "local_file_timestamp_utc": "2026-10-02T22:18:32.228429+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:32.231026+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195wa0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Washington/All_Geographies_Not_Tracts_Block_Groups/20195wa0117000.zip",
+    "sha256": "1798ace93d7681d27eed8adf3dd2198645ad38cb3e722f0662e4de57d357ab0a",
+    "bytes": 1952038,
+    "local_file_timestamp_utc": "2026-10-02T22:18:32.825857+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:32.828247+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195wv.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/WestVirginia/All_Geographies_Not_Tracts_Block_Groups/g20195wv.csv?download=1",
+    "sha256": "36bee785d765be0b41e6f1b8f6222def84d192c30f0c39606da8f12548514740",
+    "bytes": 737653,
+    "local_file_timestamp_utc": "2026-10-02T22:18:32.847133+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:32.848735+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195wv0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/WestVirginia/All_Geographies_Not_Tracts_Block_Groups/20195wv0058000.zip",
+    "sha256": "8d4047a85c47c921502a90577658784f93c6b294a67082e88ae571e8eb024910",
+    "bytes": 466949,
+    "local_file_timestamp_utc": "2026-10-02T22:18:32.705323+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:18:32.707179+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "counties2019.zip": {
+    "url": "https://www2.census.gov/geo/tiger/GENZ2019/shp/cb_2019_us_county_500k.zip",
+    "sha256": "1c4b703cd34c3f5e5e6368f91f1bd80de9281ef81ad91e005844848df9976c4b",
+    "bytes": 11495204,
+    "local_file_timestamp_utc": "2026-10-02T22:22:08.969722+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:22:08.977860+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195wv0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/WestVirginia/All_Geographies_Not_Tracts_Block_Groups/20195wv0117000.zip",
+    "sha256": "7df00574f51ba75a417538cb9fc3f3c7d64926adf958c7dca73f80f1721123a1",
+    "bytes": 1062968,
+    "local_file_timestamp_utc": "2026-10-02T22:22:08.896002+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:22:08.898545+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195wi.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Wisconsin/All_Geographies_Not_Tracts_Block_Groups/g20195wi.csv?download=1",
+    "sha256": "e3e577232c11e1dbdd6c5fc346c992348cf2a0e7985c7570be257b1e639e24b6",
+    "bytes": 2079275,
+    "local_file_timestamp_utc": "2026-10-02T22:22:10.137082+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:22:10.143649+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195wi0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Wisconsin/All_Geographies_Not_Tracts_Block_Groups/20195wi0058000.zip",
+    "sha256": "284925cf677b4b2e73faa24484b5618ef67c3fc9e6c7200aaa70110315c4a208",
+    "bytes": 1536697,
+    "local_file_timestamp_utc": "2026-10-02T22:22:09.050100+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:22:09.052257+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195wi0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Wisconsin/All_Geographies_Not_Tracts_Block_Groups/20195wi0117000.zip",
+    "sha256": "9db778617b47d7380b52df7164e9d788727b27eb48645b0454d5dae349802e26",
+    "bytes": 3293960,
+    "local_file_timestamp_utc": "2026-10-02T22:22:09.428257+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:22:09.436758+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/g20195wy.csv": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Wyoming/All_Geographies_Not_Tracts_Block_Groups/g20195wy.csv?download=1",
+    "sha256": "362d3eb8d6f953643bda9e819f3255dc8d941adde61e6f4b5bb179317dd56802",
+    "bytes": 267160,
+    "local_file_timestamp_utc": "2026-10-02T22:22:09.597958+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:22:09.602530+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195wy0058000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Wyoming/All_Geographies_Not_Tracts_Block_Groups/20195wy0058000.zip",
+    "sha256": "4b78651df0bd51338ba9aa86b669f857856e9e7369b4d72a68b702181b889640",
+    "bytes": 240576,
+    "local_file_timestamp_utc": "2026-10-02T22:22:09.602384+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:22:09.605516+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  },
+  "acs2019/20195wy0117000.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/data/5_year_seq_by_state/Wyoming/All_Geographies_Not_Tracts_Block_Groups/20195wy0117000.zip",
+    "sha256": "89bdda50f8fa2d5c58a0d96ae5b546669b6e8cdcbb7b06b17c84339d23f78315",
+    "bytes": 482717,
+    "local_file_timestamp_utc": "2026-10-02T22:22:10.127743+00:00",
+    "first_manifest_recorded_utc": "2026-10-02T22:22:10.133149+00:00",
+    "note": "Cached files are reused. Local timestamp is not a provider release date."
+  }
+}

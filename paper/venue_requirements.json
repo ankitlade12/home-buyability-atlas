@@ -1,0 +1,49 @@
+{
+  "venue": "IEEE COMNETSAT 2026",
+  "track": "Track 5: Data Science and Artificial Intelligence",
+  "primary_topic": "Data Representation and Visualization",
+  "conference_dates": "2026-12-03 through 2026-12-05",
+  "location": "Manado, Indonesia",
+  "batch_2_submission": "2026-10-18",
+  "batch_2_notification": "2026-11-06",
+  "batch_2_registration_and_final": "2026-11-18",
+  "deadline_timezone": "not verified",
+  "submission_url": "https://edas.info/N35250",
+  "review": "single-blind per submissions page",
+  "working_length_target": "6 IEEE two-column pages, provisional; not a resolved venue limit",
+  "unresolved": [
+    "Page limits conflict: 6\u20138 technical pages, maximum 2 pages in same paragraph, and 4\u20137 pages later",
+    "Paper size conflicts: US Letter in initial instructions versus A4 later",
+    "Hybrid/online instructions conflict with in-person wording on policy page",
+    "Registration link on submissions page uses old r33946; homepage uses r35250",
+    "Conference-specific AI-use requirements not verified"
+  ],
+  "author_actions": [
+    "Confirm page limit and paper size using EDAS requirements or organizers before submission",
+    "Confirm participation rules if presenting remotely",
+    "Confirm contributions, funding and disclosures before submission."
+  ],
+  "source_manifest": "provenance/comnetsat/manifest.json",
+  "edas_confirmed": {
+    "source": "EDAS registration form supplied by user on October 2, 2026",
+    "title_max_characters": 160,
+    "abstract_min_words": 20,
+    "abstract_max_words": 250,
+    "topic_min": 2,
+    "topic_max": 4,
+    "optional_keywords": 6,
+    "no_page_numbers_headers_footers": true,
+    "track_id": 137563
+  },
+  "manuscript_build": {
+    "class": "IEEEtran conference 1.8b",
+    "default_paper_size": "A4 (provisional)",
+    "pages": 4,
+    "source": "paper/draft.tex",
+    "pdf": "outputs/comnetsat2026_buyability_a4.pdf",
+    "page_numbers_headers_footers": false,
+    "all_fonts_embedded": true,
+    "pdf_express_certified": false,
+    "author_metadata_complete": true
+  }
+}

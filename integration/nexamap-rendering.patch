@@ -1,0 +1,14 @@
+diff --git a/electron-app/renderer/renderer.js b/electron-app/renderer/renderer.js
+index 8e538ec..a096e0a 100644
+--- a/electron-app/renderer/renderer.js
++++ b/electron-app/renderer/renderer.js
+@@ -455,6 +455,9 @@ function createPointDivIcon(sym) {
+ 
+ function createLeafletLayerForGeoJSON(geojson, layerId) {
+   return L.geoJSON(geojson, {
++    // Local research patch: the import pipeline stores EPSG:3857 coordinates,
++    // whereas Leaflet's default GeoJSON converter expects longitude/latitude.
++    coordsToLatLng: (coords) => L.CRS.EPSG3857.unproject(L.point(coords[0], coords[1])),
+     pointToLayer: (feature, latlng) => {
+       const sym = getLayerSymDefaults(layerId) || getDefaultSymbology('Point');
+       if (sym.markerType && sym.markerType !== 'circle') {

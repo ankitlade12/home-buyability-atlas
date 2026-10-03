@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home buyability · research explorer</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#163341;background:#f3f5f4}body{margin:0}main{max-width:1450px;margin:auto;padding:25px}h1{font-size:30px;margin:4px 0}h2{font-size:18px;margin:4px 0 12px}.eyebrow{font-size:12px;letter-spacing:2px;color:#326771}p{line-height:1.55}.sub{color:#526872;font-size:14px}.controls{display:flex;flex-wrap:wrap;gap:12px;padding:18px 0}label{font-size:12px;font-weight:650;display:grid;gap:5px}select{font:14px system-ui;padding:9px;background:white;border:1px solid #b6c6ca;border-radius:5px;max-width:290px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{background:white;padding:20px;border:1px solid #dae2e3;border-radius:10px;min-width:0}.map{width:100%;height:auto}.map path{stroke:white;stroke-width:.3;cursor:pointer}.map path.chosen{stroke:#111;stroke-width:2.5}.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;margin:10px 0}.swatch{display:inline-block;width:13px;height:13px;vertical-align:middle;margin-right:4px}.note{padding:12px;background:#edf3f3;border-left:3px solid #52858a;font-size:13px}.stats{font-size:14px;min-height:40px}.bottom{margin-top:16px;grid-template-columns:1.1fr .9fr}#scatter{width:100%}#scatter circle{cursor:pointer}#details{font-size:14px;line-height:1.6}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:8px;text-align:left;border-bottom:1px solid #e3e8e9}button{border:1px solid #97b2b9;padding:9px 12px;background:#e8f2f3;border-radius:5px;cursor:pointer}footer{font-size:13px;padding-top:20px;color:#526872}a{color:#146976}@media(max-width:850px){.grid,.bottom{grid-template-columns:1fr}main{padding:12px}}
+</style></head><body><main>
+<div class="eyebrow">REPRODUCIBLE HOUSING RESEARCH · EXPLORATORY PROTOTYPE</div>
+<h1>What changes when we measure entry into ownership?</h1>
+<p class="sub">Compare the original payment-to-income map with renter income, local cost proxies and upfront cash requirements. Inputs: 2024 mean ZHVI and 2020–2024 ACS. Financing terms are scenarios.</p>
+<div class="controls">
+<label>Income population<select id="income"><option value="renter_income">Renter households</option><option value="income">All households</option></select></label>
+<label>Down payment<select id="down"><option value="0.2">20%</option><option value="0.1">10%</option><option value="0.05">5%</option></select></label>
+<label>Mortgage rate<select id="spread"><option value="0">7.03%</option><option value="0.005">7.53% (+0.50 pp sensitivity)</option></select></label>
+<label>Comparison view<select id="measure"><option value="pi">Principal &amp; interest only</option><option value="low">Cost proxy: lower bound</option><option value="high">Cost proxy: upper bound</option><option value="uncertainty">P&amp;I benchmark / income uncertainty</option></select></label>
+<label>Highlight a county<select id="county"><option value="">Select a county…</option></select></label>
+</div>
+<div class="grid"><section class="card"><h2>Original representation</h2><div class="sub">All-household income · 20% down · 7.03% · P&amp;I only</div><svg id="baseline" class="map" viewBox="0 0 1000 620" role="img" aria-label="Original county principal-and-interest burden map">__MAP_PATHS__</svg><div class="legend" id="legendLeft"></div><div id="baseStats" class="stats"></div></section>
+<section class="card"><h2 id="comparisonTitle">Comparison representation</h2><div id="settings" class="sub"></div><svg id="comparison" class="map" viewBox="0 0 1000 620" role="img" aria-label="Scenario county burden map">__MAP_PATHS__</svg><div class="legend" id="legendRight"></div><div id="compareStats" class="stats" aria-live="polite"></div></section></div>
+<p class="note">Maps show the contiguous U.S.; summaries and the county selector include Alaska and Hawaii. Gray means missing inputs, not low burden. Numeric maps use fixed bins across scenarios. “Unbounded” means the source supplies no finite upper cost bound. The 28% reference is a comparison benchmark, not an eligibility decision.</p>
+<div class="grid bottom"><section class="card"><h2>Upfront capital versus recurring payment</h2><div class="sub">Each point is a county. Click a point or map polygon to inspect it. Upfront cash uses down payment + 2% closing costs.</div><svg id="scatter" viewBox="0 0 700 420" role="img" aria-label="County upfront cash versus recurring burden scatterplot"></svg><div id="scatterNote" class="sub"></div></section>
+<section class="card"><h2>County evidence</h2><div id="details" aria-live="polite">Select a county to inspect its inputs, scenario ranges and historical comparison.</div><p><button id="download">Download current scenario CSV</button></p><div class="sub">CSV includes all 3,144 county equivalents. Missing values remain empty; unbounded upper values are written as “unbounded”.</div></section></div>
+<footer><p>Cost proxy = P&amp;I + existing mortgaged owners’ tax and insurance proxies + PMI scenario. Separate county medians do not sum to an observed median bill. PMI: $30–$70/month per $100,000 borrowed when down payment is below 20%. Closing costs: 2–5% of value. HOA, maintenance, utilities, reserves, assets and other debt are excluded. Income-MOE classifications hold home values fixed and do not include cost uncertainty.</p>
+<p>Sources: <a href="https://www.zillow.com/research/data/">Zillow</a> · <a href="https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/">Census ACS</a> · <a href="https://www.freddiemac.com/pmms/archive">Freddie Mac</a>. Simplified geometry is for display only. This standalone prototype is separate from NexaMap; the same research data also have a GeoJSON export. No usability study has been conducted.</p></footer>
+</main><script>
+'use strict';
+const records=__DATA__;
+const byId=new Map(records.map(d=>[d.geoid,d]));
+const $=id=>document.getElementById(id);
+const valid=v=>typeof v==='number'&&Number.isFinite(v);
+const fmt=v=>v===Infinity?'unbounded':valid(v)?(100*v).toFixed(1)+'%':'missing';
+const money=v=>valid(v)?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(v):'missing';
+const median=a=>{a=a.slice().sort((x,y)=>x-y);return a.length?(a[Math.floor((a.length-1)/2)]+a[Math.floor(a.length/2)])/2:null;};
+const COLORS=['#edf4cf','#b9d9b6','#70b4ac','#2b858e','#17445f'];
+const labels=['≤ 20%','20–28%','28–36%','36–50%','> 50%'];
+const classColors={below:'#70b4ac',above:'#17445f',straddles:'#dba657',missing:'#d6dadd'};
+const classNames={below:'Below across income range',above:'Above across income range',straddles:'Straddles 28%',missing:'Missing income/MOE'};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function calculate(d,down,spread,incomeKey){
+ const income=d[incomeKey],price=d.price_2024,moe=d[incomeKey+'_moe'];
+ if(!(valid(price)&&price>0&&valid(income)&&income>0))return {pi:null,low:null,high:null,cashLow:null,cashHigh:null,status:'missing'};
+ const r=(.0703+spread)/12,principal=price*(1-down),payment=principal*r/(1-Math.pow(1+r,-360));
+ const pi=12*payment/income, cashLow=price*(down+.02)/income,cashHigh=price*(down+.05)/income;
+ const low=(valid(d.annual_tax_low)&&valid(d.annual_insurance_bin_low))?(12*payment+d.annual_tax_low+d.annual_insurance_bin_low+(down<.2?principal*.0036:0))/income:null;
+ let high=null;
+ // Both components must exist; an explicit censoring flag differentiates missing from infinity.
+ const taxHigh=d.tax_top_coded===true?Infinity:d.annual_tax_high;
+ const insHigh=d.insurance_open_upper_bin===true?Infinity:d.annual_insurance_bin_high;
+ if(taxHigh!==null&&insHigh!==null)high=(12*payment+taxHigh+insHigh+(down<.2?principal*.0084:0))/income;
+ const piLow=valid(moe)?12*payment/(income+moe):null;
+ const piHigh=valid(moe)?(income>moe?12*payment/(income-moe):Infinity):null;
+ const status=!valid(moe)?'missing':piLow>.28?'above':piHigh<=.28?'below':'straddles';
+ return {pi,low,high,cashLow,cashHigh,payment,piLow,piHigh,status};
+}
+function settings(){return {down:Number($('down').value),spread:Number($('spread').value),income:$('income').value,measure:$('measure').value};}
+function color(v){if(v===Infinity)return '#a85c93';if(!valid(v))return '#d6dadd';return COLORS[v<=.2?0:v<=.28?1:v<=.36?2:v<=.5?3:4];}
+function legend(id,uncertain=false){$(id).innerHTML=uncertain?Object.keys(classNames).map(k=>`<span><i class="swatch" style="background:${classColors[k]}"></i>${classNames[k]}</span>`).join(''):COLORS.map((c,i)=>`<span><i class="swatch" style="background:${c}"></i>${labels[i]}</span>`).join('')+'<span><i class="swatch" style="background:#d6dadd"></i>Missing</span><span><i class="swatch" style="background:#a85c93"></i>Unbounded</span>';}
+let computed=new Map(),selected='';
+function render(){
+ const s=settings(),uncertain=s.measure==='uncertainty',field=uncertain?'pi':s.measure;
+ computed=new Map(records.map(d=>[d.geoid,calculate(d,s.down,s.spread,s.income)]));
+ $('settings').textContent=`${s.income==='income'?'All-household':'Renter-household'} income · ${(s.down*100).toFixed(0)}% down · ${((.0703+s.spread)*100).toFixed(2)}% rate · ${$('measure').selectedOptions[0].text}`;
+ $('comparison').querySelectorAll('path').forEach(p=>{const a=computed.get(p.dataset.id);p.style.fill=uncertain?classColors[a.status]:color(a[field]);});
+ legend('legendRight',uncertain);
+ const vals=[...computed.values()].map(v=>v[field]).filter(v=>valid(v)||v===Infinity),finite=vals.filter(valid);
+ if(uncertain){const counts={};computed.forEach(v=>counts[v.status]=(counts[v.status]||0)+1);$('compareStats').textContent=Object.keys(classNames).map(k=>`${classNames[k]}: ${(counts[k]||0).toLocaleString()}`).join(' · ');}
+ else $('compareStats').textContent=`${vals.length.toLocaleString()} counties with values · median ${fmt(median(vals))} · ${vals.filter(v=>v>.28).length.toLocaleString()} above 28% · ${vals.length-finite.length} unbounded upper values`;
+ renderScatter(field);highlight(selected);
+}
+function renderScatter(field){
+ const W=700,H=420,x0=62,y0=25,pw=610,ph=335,xmax=2,ymax=1.5;
+ let content=`<line x1="${x0}" y1="${y0+ph}" x2="${x0+pw}" y2="${y0+ph}" stroke="#617984"/><line x1="${x0}" y1="${y0}" x2="${x0}" y2="${y0+ph}" stroke="#617984"/>`;
+ for(let i=0;i<=4;i++){let v=i*.5;content+=`<text x="${x0+v/xmax*pw}" y="385" font-size="12" text-anchor="middle">${v*100}%</text>`;}
+ for(let i=0;i<=3;i++){let v=i*.5;content+=`<text x="52" y="${y0+ph-v/ymax*ph+4}" font-size="12" text-anchor="end">${v*100}%</text>`;}
+ content+='<text x="360" y="414" font-size="13" text-anchor="middle">Upfront cash / annual income (lower closing-cost scenario)</text><text x="16" y="210" font-size="13" text-anchor="middle" transform="rotate(-90 16 210)">Recurring cost / monthly income</text>';
+ content+=`<line x1="${x0}" x2="${x0+pw}" y1="${y0+ph-.28/ymax*ph}" y2="${y0+ph-.28/ymax*ph}" stroke="#b87938" stroke-dasharray="5 4"/>`;
+ let shown=0,off=0,missing=0;
+ for(const d of records){let a=computed.get(d.geoid),x=a.cashLow,y=a[field];if(!valid(x)||!valid(y)){if(y===Infinity)off++;else missing++;continue;}if(x>xmax||y>ymax){off++;continue;}
+ shown++;content+=`<circle data-id="${d.geoid}" cx="${x0+x/xmax*pw}" cy="${y0+ph-y/ymax*ph}" r="3" fill="${color(y)}" opacity=".5"><title>${esc(d.NAME)} (${d.geoid}): cash ${fmt(x)}, recurring ${fmt(y)}</title></circle>`;}
+ $('scatter').innerHTML=content;
+ $('scatterNote').textContent=`${shown.toLocaleString()} points shown; ${off} outside fixed axes or unbounded; ${missing} missing. All remain in the county selector and export. Uncertainty view plots P&I point estimates.`;
+}
+function highlight(id){
+ selected=id;$('county').value=id;
+ document.querySelectorAll('.map path').forEach(p=>p.classList.toggle('chosen',p.dataset.id===id));
+ $('scatter').querySelectorAll('circle').forEach(p=>{p.setAttribute('r',p.dataset.id===id?7:3);p.setAttribute('stroke',p.dataset.id===id?'#d14422':'none');});
+ if(!id){$('details').textContent='Select a county to inspect its inputs, scenario ranges and historical comparison.';return;}
+ const d=byId.get(id),a=computed.get(id),b=calculate(d,.2,0,'income');
+ $('details').innerHTML=`<strong>${esc(d.NAME)} · GEOID ${id}</strong><table><tr><td>2024 typical home value</td><td>${money(d.price_2024)}</td></tr><tr><td>All-household / renter income</td><td>${money(d.income)} / ${money(d.renter_income)}</td></tr><tr><td>Original P&I ratio</td><td>${fmt(b.pi)}</td></tr><tr><td>Selected P&I ratio</td><td>${fmt(a.pi)}</td></tr><tr><td>Cost proxy range</td><td>${fmt(a.low)} – ${fmt(a.high)}</td></tr><tr><td>Upfront cash / annual income</td><td>${fmt(a.cashLow)} – ${fmt(a.cashHigh)}</td></tr><tr><td>P&I / income-MOE range</td><td>${fmt(a.piLow)} – ${fmt(a.piHigh)}</td></tr><tr><td>28% income sensitivity</td><td>${classNames[a.status]}</td></tr><tr><td>Historical renter P&I, 2019 → 2024</td><td>${fmt(d.ratio_2019)} → ${fmt(d.ratio_2024)}</td></tr></table><p class="sub">Historical values use each year's average observed mortgage rate, not the selected scenario. Missing historical values can reflect the geography screen or unavailable data.</p>`;
+}
+records.slice().sort((a,b)=>a.NAME.localeCompare(b.NAME)||a.geoid.localeCompare(b.geoid)).forEach(d=>{const o=document.createElement('option');o.value=d.geoid;o.textContent=d.NAME+' · '+d.geoid;$('county').appendChild(o);});
+$('baseline').querySelectorAll('path').forEach(p=>{p.style.fill=color(calculate(byId.get(p.dataset.id),.2,0,'income').pi);});
+const original=records.map(d=>calculate(d,.2,0,'income').pi).filter(valid);
+$('baseStats').textContent=`${original.length.toLocaleString()} counties with values · median ${fmt(median(original))} · ${original.filter(v=>v>.28).length.toLocaleString()} above 28%`;
+legend('legendLeft');
+['income','down','spread','measure'].forEach(id=>$(id).addEventListener('change',render));
+$('county').addEventListener('change',()=>highlight($('county').value));
+document.querySelectorAll('.map,#scatter').forEach(el=>el.addEventListener('click',e=>{const p=e.target.closest('[data-id]');if(p)highlight(p.dataset.id);}));
+$('download').addEventListener('click',()=>{const s=settings(),rows=[['geoid','county','down_payment','annual_rate','income_population','pi_ratio','cost_low','cost_high','cash_income_low','cash_income_high','income_moe_status']];for(const d of records){const a=computed.get(d.geoid);rows.push([d.geoid,d.NAME,s.down,.0703+s.spread,s.income,a.pi,a.low,a.high,a.cashLow,a.cashHigh,a.status]);}const csv=rows.map(row=>row.map(v=>'"'+String(v===Infinity?'unbounded':v??'').replace(/"/g,'""')+'"').join(',')).join('\n');const url=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));const a=document.createElement('a');a.href=url;a.download='buyability_current_scenario.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+window.buyability={calculate,records,settings,render};render();
+</script></body></html>

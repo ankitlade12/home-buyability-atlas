@@ -1,0 +1,17 @@
+area,status,finding,required_action_or_limit
+Construct validity,OPEN,County ratios are not structural household purchase capacity,Retain proxy terminology; household-level eligibility requires assets debt credit and joint property/household data
+Source provenance,PASS,163 cached sources match recorded SHA256 hashes,Frozen manifest in provenance/source_manifest.json; public accessibility does not itself grant redistribution rights
+Data vintage,DISCLOSED,2024 inputs with a 2026 financing scenario,Do not label results observed 2026 affordability; ZHVI historical series uses download vintage
+Geographic coverage,DISCLOSED,3036 common counties cover 98.80% of households; historical renter sample covers 90.74% of renters,Report state exclusions and avoid national household inference from equal county weights
+Missingness semantics,FIXED,Missing income endpoints previously exported as infinity,Endpoints now null for missing income/MOE; regression assertion added
+Financing arithmetic,PASS,SQL and extended calculation agree; amortization and rank invariance checked,Internal agreement is not borrower-level external validity
+Uncertainty,PARTIAL,Income-only MOE and cost-bin bounds represented separately,No tax/insurance sampling uncertainty or home-value error propagation; no joint confidence claims
+Representation evaluation,PASS,Ranks and thresholds compared on explicit samples,Positive cost effect is mechanical; magnitude and geographic reordering are empirical
+Causal identification,OUT OF SCOPE,No design identifies monetary-policy inflation lock-in or rental spillover effects,Remove empirical causal claims; historical allocation remains accounting
+Spatial inference,OPEN,County maps only; no official metro/core-periphery analysis,Drop original core/periphery claim or add defined geography and appropriate spatial analysis
+Related work,OPEN,Targeted abstract-level comparison is insufficient for novelty,Full-text review plus housing affordability and visual analytics baselines required
+User evaluation,OPEN,No participants; numerical checks do not measure comprehension,Scope as empirical representation study or conduct prospective task evaluation without inventing responses
+NexaMap integration,OPEN,Pinned version imported features incorrectly; candidate patch retained,Verify patch before claiming NexaMap-backed spatial analysis; standalone artifact works separately
+Artifact portability,PARTIAL,Pinned Python packages and offline explorer available,Independent clean-environment reproduction and data redistribution terms remain to check
+Conference compliance,PARTIAL,COMNETSAT 2026 Track 5 identified; Batch 2 due October 18; official format instructions conflict,Resolve page limit paper size and participation rules through EDAS or organizers; see paper/venue_requirements.json
+Submission metadata,OPEN,Authors affiliations contributions funding and disclosures absent,Collect factual author metadata and verify venue AI-use policy before submission

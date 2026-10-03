@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.mplconfig/
+data/raw/
+data/processed/
+outputs/
+vendor/
+.browser-tools/
+.DS_Store
+*.pyc
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+# Local agent memory and downloaded site snapshots are not project sources.
+AGENTS.md
+provenance/comnetsat/*.html

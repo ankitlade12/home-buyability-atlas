@@ -1,0 +1,3 @@
+# Optional document-build dependencies; core analysis uses requirements.txt.
+pypandoc_binary==1.17
+pypdf==6.19.0
