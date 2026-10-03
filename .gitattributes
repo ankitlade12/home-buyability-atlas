@@ -1,3 +1,0 @@
-# Preserve unmodified upstream templates and patch context.
-paper/template/** -whitespace
-integration/*.patch -whitespace

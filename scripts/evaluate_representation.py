@@ -3,7 +3,6 @@ import json
 import math
 import platform
 import time
-from html import escape
 import numpy as np
 import pandas as pd
 import geopandas as gpd

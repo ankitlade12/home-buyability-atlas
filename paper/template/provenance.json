@@ -1,6 +1,0 @@
-{
-  "source": "https://mirrors.ctan.org/macros/latex/contrib/IEEEtran.zip",
-  "conference_template_link": "https://www.ieee.org/conferences/publishing/templates.html",
-  "archive_sha256": "e0cd4f5afbd42c8076092280e72b3e0a5111efe501d35de9f715cfb8da313cb4",
-  "note": "Unmodified IEEEtran conference class and bibliography style from CTAN; IEEE download returned an empty payload. See bundled upstream notices."
-}

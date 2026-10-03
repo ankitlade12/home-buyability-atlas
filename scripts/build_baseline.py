@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 os.environ.setdefault('MPLCONFIGDIR', str(ROOT / '.mplconfig'))
 import matplotlib
 matplotlib.use('Agg')
+matplotlib.rcParams['pdf.fonttype'] = 42  # Embed TrueType fonts in exported figures.
 import matplotlib.pyplot as plt
 
 def acs(table, columns):

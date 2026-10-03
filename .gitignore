@@ -16,4 +16,11 @@ vendor/
 *.synctex.gz
 # Local agent memory and downloaded site snapshots are not project sources.
 AGENTS.md
-provenance/comnetsat/*.html
+provenance/comnetsat/
+
+# Local publication materials and retired integration experiments.
+paper/
+requirements-paper.txt
+scripts/build_paper.py
+scripts/export_word.py
+integration/
